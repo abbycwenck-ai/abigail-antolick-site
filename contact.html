@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Abigail Antolick — Let's Build Your Marketing Engine</title>
+  <meta name="description" content="Ready for a marketing strategy that actually comes with a dashboard? Book a free discovery call with Abigail Antolick.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;1,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="nav__logo">abigail<span>.</span></a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="work.html" class="nav__link">Work</a>
+        <a href="contact.html" class="nav__link nav__link--active nav__cta btn btn--primary btn--small">Let's Talk</a>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="nav__mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="label">Get in Touch</span>
+      <h1>Let's make your marketing <em>visible.</em></h1>
+      <p>Whether you need a full strategy, just a dashboard, or you're not sure yet — let's talk. The first call is always free, and I promise no sales pitch. Just a real conversation about your business.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact__info reveal">
+          <h2>Here's what happens next.</h2>
+          <p>You fill out the form (takes 2 minutes). I'll respond within 24 hours to schedule a free 30-minute discovery call. On that call, we'll talk about your goals, your current marketing, and whether working together makes sense.</p>
+          <p>No pressure. No pitch deck. Just a genuine conversation between a founder and a marketer who cares about your growth.</p>
+
+          <div class="contact__details">
+            <div class="contact__detail">
+              <div class="contact__detail-icon">📧</div>
+              <div class="contact__detail-text">
+                <strong>Email</strong>
+                hello@abigailantolick.com
+              </div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon">📍</div>
+              <div class="contact__detail-text">
+                <strong>Location</strong>
+                Remote — working with startups everywhere
+              </div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon">⏰</div>
+              <div class="contact__detail-text">
+                <strong>Response Time</strong>
+                Within 24 hours, usually same day
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__socials">
+            <a href="#" class="contact__social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="contact__social-link" aria-label="Instagram">ig</a>
+          </div>
+        </div>
+
+        <div class="contact__form reveal reveal--delay-1">
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required placeholder="Your first name">
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required placeholder="Your last name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@yourcompany.com">
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Your startup name">
+            </div>
+            <div class="form-group">
+              <label for="revenue">Annual Revenue Range</label>
+              <select id="revenue" name="revenue">
+                <option value="" disabled selected>Select a range</option>
+                <option value="pre-revenue">Pre-Revenue</option>
+                <option value="0-500k">$0 - $500K</option>
+                <option value="500k-1m">$500K - $1M</option>
+                <option value="1m-5m">$1M - $5M</option>
+                <option value="5m-10m">$5M - $10M</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="interest">What are you most interested in?</label>
+              <select id="interest" name="interest">
+                <option value="" disabled selected>Choose one</option>
+                <option value="dashboard">Custom Dashboard</option>
+                <option value="strategy">Marketing Strategy</option>
+                <option value="both">Strategy + Dashboard</option>
+                <option value="ongoing">Ongoing Retainer</option>
+                <option value="not-sure">Not Sure Yet</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell me about your biggest marketing challenge</label>
+              <textarea id="message" name="message" placeholder="What's keeping you up at night? What's your #1 marketing pain point right now?"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width: 100%; justify-content: center;">Send Message <span class="arrow">→</span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ-style Section -->
+  <section class="values" style="background-color: var(--color-white);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="label">Common Questions</span>
+        <h2>Before you ask.</h2>
+      </div>
+      <div class="values__grid">
+        <div class="value-card reveal" style="text-align: left;">
+          <h4 class="value-card__title">Do I need to be technical to use the dashboard?</h4>
+          <p class="value-card__text" style="margin: 0;">Absolutely not. I build dashboards for non-technical teams. If you can use Netflix, you can use your dashboard. I also do a full training session to make sure everyone on your team feels confident.</p>
+        </div>
+        <div class="value-card reveal reveal--delay-1" style="text-align: left;">
+          <h4 class="value-card__title">How long does a project take?</h4>
+          <p class="value-card__text" style="margin: 0;">Dashboard-only projects typically take 2-3 weeks. Strategy + dashboard packages run 4-6 weeks. I'll give you a specific timeline during our discovery call based on your scope.</p>
+        </div>
+        <div class="value-card reveal reveal--delay-2" style="text-align: left;">
+          <h4 class="value-card__title">What if my startup is pre-revenue?</h4>
+          <p class="value-card__text" style="margin: 0;">I love working with pre-revenue startups. Your dashboard will focus on the metrics that matter most at your stage — user acquisition, activation, and the data points investors want to see.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">abigail<span>.</span></div>
+          <p class="footer__tagline">Marketing strategy meets real dashboards. Built for startups that want to grow smarter, not just louder.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigate</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="work.html">Work</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <ul class="footer__links">
+            <li><a href="services.html">Dashboard Creation</a></li>
+            <li><a href="services.html">Marketing Strategy</a></li>
+            <li><a href="services.html">Ongoing Optimization</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Connect</h4>
+          <ul class="footer__links">
+            <li><a href="contact.html">Get in Touch</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 Abigail Antolick. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">ig</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
