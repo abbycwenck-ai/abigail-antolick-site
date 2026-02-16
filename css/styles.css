@@ -5,26 +5,26 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-  /* Primary palette - warm, bold, millennial */
-  --color-black: #1a1a1a;
-  --color-off-black: #2d2d2d;
-  --color-charcoal: #3d3d3d;
-  --color-warm-gray: #6b6360;
-  --color-light-gray: #f5f2ef;
-  --color-cream: #faf8f5;
+  /* Primary palette - ocean-inspired, modern minimalist */
+  --color-black: #000000;
+  --color-off-black: #13312a;
+  --color-charcoal: #1a2e28;
+  --color-warm-gray: #6b626e;
+  --color-light-gray: #e8e4df;
+  --color-cream: #f4f1ec;
   --color-white: #ffffff;
 
   /* Accent colors */
-  --color-terracotta: #c4704b;
-  --color-terracotta-dark: #a85d3b;
-  --color-sage: #7a8c6e;
-  --color-sand: #d4c5b2;
-  --color-blush: #e8d5cb;
+  --color-terracotta: #1fb5de;
+  --color-terracotta-dark: #189bbd;
+  --color-sage: #86c4c8;
+  --color-sand: #d1c7b8;
+  --color-blush: #dde8e8;
 
   /* Typography */
-  --font-heading: 'Playfair Display', Georgia, serif;
-  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-accent: 'Space Mono', monospace;
+  --font-heading: 'Questrial', 'Helvetica Neue', sans-serif;
+  --font-body: 'Quicksand', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: 'Quicksand', sans-serif;
 
   /* Spacing */
   --section-padding: clamp(60px, 10vw, 120px);
