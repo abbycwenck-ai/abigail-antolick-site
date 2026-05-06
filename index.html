@@ -6,10 +6,21 @@
   <title>Abigail Antolick | Marketing Strategist & Dashboard Builder</title>
   <meta name="description" content="Marketing strategy meets data. I build custom dashboards and marketing plans for startups — no dev team required. 8+ years driving $10M+ in revenue, zero fluff.">
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Abigail Antolick | Marketing Strategy + Dashboards for Startups">
+  <meta property="og:description" content="Strategy that moves the needle. Dashboards that prove it. 8+ years, $10M+ in revenue driven, zero dev teams required.">
+  <meta property="og:image" content="https://abigail-antolick-site.vercel.app/images/og-image.png">
+  <meta property="og:url" content="https://abigail-antolick-site.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Vercel Analytics -->
+  <script defer src="/_vercel/insights/script.js"></script>
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css">
@@ -88,6 +99,22 @@
         <div class="stat reveal reveal--delay-3">
           <span class="stat__number" data-count="43" data-suffix="%">0</span>
           <span class="stat__label">Client Volume Increase</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strategic Advisor -->
+  <section class="advisor">
+    <div class="container">
+      <div class="advisor__inner reveal">
+        <div class="advisor__label">
+          <span class="label">Strategic Advisor</span>
+        </div>
+        <div class="advisor__content">
+          <h3 class="advisor__name">Eric Wenck</h3>
+          <p class="advisor__bio">30+ years as CTO/CIO at $80M+ education and assessment companies — including <strong>Sylvan Learning</strong>, <strong>Catapult Learning</strong>, and <strong>ACT</strong>. Eric advises on infrastructure, scale, and how to build systems that don't break when growth shows up.</p>
+          <a href="https://www.linkedin.com/in/eric-wenck-40ab758/" target="_blank" rel="noopener" class="advisor__link">View on LinkedIn <span class="arrow">→</span></a>
         </div>
       </div>
     </div>
@@ -223,16 +250,39 @@
       <div class="testimonials__grid">
         <div class="testimonial-card reveal">
           <span class="testimonial-card__quote">"</span>
-          <p class="testimonial-card__text">Abigail gave us a marketing strategy AND a dashboard to track it — in the same engagement. We used to pay a developer and a marketing consultant separately. She's both, and better.</p>
-          <p class="testimonial-card__author">Sarah Chen</p>
-          <p class="testimonial-card__role">CEO, TechVenture (Series A)</p>
+          <p class="testimonial-card__text">Hire Abby if you ever have the chance. She's both creative and super analytical — it was her brainchild that led to the highest grossing launch in company history. She has wonderful copy, image and ad ideas, and at the same time isn't afraid to jump into a CRM to troubleshoot a glitch.</p>
+          <p class="testimonial-card__author">Kristen Palmer</p>
+          <p class="testimonial-card__role">CMO/COO · Agora Alum · former direct manager</p>
         </div>
         <div class="testimonial-card reveal reveal--delay-1">
           <span class="testimonial-card__quote">"</span>
-          <p class="testimonial-card__text">For the first time, our entire team can see what our marketing is doing in real time. No more waiting for monthly reports. The dashboard alone was worth 10x what we paid.</p>
-          <p class="testimonial-card__author">Marcus Rivera</p>
-          <p class="testimonial-card__role">Founder, GrowthStack</p>
+          <p class="testimonial-card__text">Abby stood out as a creative, strategic, and collaborative leader who consistently brought fresh ideas and executed them with precision. She played a key role in shaping and elevating the brands under Mindful Health LLC.</p>
+          <p class="testimonial-card__author">Tiffany Seevers</p>
+          <p class="testimonial-card__role">Controller &amp; Head of People Operations · Mindful Health LLC</p>
         </div>
+        <div class="testimonial-card reveal reveal--delay-2">
+          <span class="testimonial-card__quote">"</span>
+          <p class="testimonial-card__text">I highly recommend Abigail for her outstanding work in helping bring my business website to life. Her professionalism, creativity, and technical skills made the entire process smooth and stress-free. She delivered a site that exceeded my expectations.</p>
+          <p class="testimonial-card__author">Marie Collins, LCPC</p>
+          <p class="testimonial-card__role">Clinical Psychotherapist · client</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter / Email Capture -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter__inner reveal">
+        <span class="label">Free · Weekly</span>
+        <h2>Marketing experiments, in plain English.</h2>
+        <p>One short email a week: a real test I'm running, the dashboard view I used to read it, and what I'd do differently. No fluff, no funnels. Free for everyone — paid tier coming for templates and tactical breakdowns.</p>
+        <!-- Substack: subscribers land at abigailantolick.substack.com -->
+        <form class="newsletter__form" action="https://abigailantolick.substack.com/api/v1/free?nojs=true" method="post">
+          <input type="email" name="email" placeholder="you@yourcompany.com" required class="newsletter__input">
+          <button type="submit" class="btn btn--primary">Subscribe <span class="arrow">→</span></button>
+        </form>
+        <p class="newsletter__small">No spam. Unsubscribe anytime. Read by founders, marketers, and the occasional therapist.</p>
       </div>
     </div>
   </section>
@@ -278,15 +328,15 @@
           <ul class="footer__links">
             <li><a href="contact.html">Get in Touch</a></li>
             <li><a href="https://www.linkedin.com/in/abigail-antolick/" target="_blank">LinkedIn</a></li>
-            <li><a href="#">Instagram</a></li>
+            <li><a href="https://instagram.com/abigail_antolick_" target="_blank" rel="noopener">Instagram</a></li>
           </ul>
         </div>
       </div>
       <div class="footer__bottom">
         <p class="footer__copyright">&copy; 2026 Abigail Antolick. All rights reserved.</p>
         <div class="footer__social">
-          <a href="#" aria-label="LinkedIn">in</a>
-          <a href="#" aria-label="Instagram">ig</a>
+          <a href="https://www.linkedin.com/in/abigail-antolick/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="https://instagram.com/abigail_antolick_" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
         </div>
       </div>
     </div>
